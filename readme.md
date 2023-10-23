@@ -6,7 +6,7 @@ There is no validating, serializing and deserializing
 
 ## It's very easy to use it
 ```c
-const char* json_string = "{\"Error\":{\"Code\":\"AccessDenied",\"Message\": \"Access Denied\"}}";
+const char* json_string = "{\"Error\":{\"Code\":\"AccessDenied\",\"Message\": \"Access Denied\"}}";
 const char* result = json_parse("/Error/Code", json_string, 0);
 printf("%s\n", result);
 ```
